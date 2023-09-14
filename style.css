@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(dan.jpeg);
+    background-size:auto;
+    font-family:  'Arial Narrow Bold', sans-serif;
+}
+.left{
+
+display: inline-block;
+left: 60px;
+top: 20px;
+position: absolute;
+}
+.left img{
+    width: 136px;
+}
+.left div{
+    text-align: center;
+}
+.mid{
+
+display: block;
+
+text-align: center;
+margin: 10px auto;
+
+}
+.rigth{
+
+position: absolute;
+display: inline-block;
+right: 34px;
+top: 14px;
+}
+.naw{
+    display: inline-block;
+}
+.naw li{
+    font-size: 25px;
+    display: inline-block;
+}
+.naw li a{
+    color: rgb(210, 195, 195);
+    text-decoration: none;
+    padding: 34px;
+}
+.naw li a:hover{
+    text-decoration: underline;
+    color: rgb(54, 55, 57);
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: rgb(226, 229, 58);
+    padding: 4px 14px;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(21, 159, 219);
+}
+.cont{
+    border: 2px solid grey;
+    margin: 106px 80px ;
+    padding: 75px;
+    border-radius: 28px;
+    width: 33%;
+}
+.cont h1{
+    text-align: center;
+    color: aliceblue;
+}
+.form input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    margin: 11px auto;
+    padding:1px ;
+    font-size: 25px;
+    border: 2px solid pink;
+    border-radius: 8px;
+
+}
+.cont button{
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
